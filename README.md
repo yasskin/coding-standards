@@ -6,8 +6,11 @@
  
 ## .NET
 
-```
+Models.
 
+* Model file names should be singular
+```
+Models/CarModel.cs
 ```
 
 ## C#
@@ -19,6 +22,16 @@
 
 ```
 _prefix for private fields 
+```
+
+Properties. User Upper CamelCase Capitalize the first letter of property names.
+```
+ViewBag.SeriesTitle
+```
+
+Variables. Use Lower CamelCase, lower the first letter of variables then upper case for additional words.  
+```
+var seriesTitle
 ```
 
 ## JavaScript
