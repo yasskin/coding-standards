@@ -10,7 +10,7 @@ Models.
 
 * Model file names should be singular
 ```
-Models/CarModel.cs
+Models/VideoGame.cs
 ```
 
 ## C#
@@ -21,17 +21,17 @@ Models/CarModel.cs
 #### Private Fields. Use _ to prefix private fields.
 
 ```
-_prefix for private fields 
+_easterEggs for private fields 
 ```
 
 Properties. User Upper CamelCase Capitalize the first letter of property names.
 ```
-ViewBag.SeriesTitle
+ViewBag.HighScore
 ```
 
 Variables. Use Lower CamelCase, lower the first letter of variables then upper case for additional words.  
 ```
-var seriesTitle
+var highScore
 ```
 
 ## JavaScript
