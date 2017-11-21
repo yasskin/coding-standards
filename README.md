@@ -13,6 +13,16 @@ Models.
 Models/VideoGame.cs
 ```
 
+To get the underlying value from a nullable type, 
+
+A. you must use the Value property.
+
+var player = _playerRepository.GetPlayer(id.Value);
+
+B. use the cast type 
+
+var player = _playerRepository.GetPlayer((int)id);
+
 ## C#
 
 #### Common C# Naming Conventions
