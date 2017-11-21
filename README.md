@@ -18,7 +18,7 @@ Models/VideoGame.cs
 #### Common C# Naming Conventions
 * https://en.wikibooks.org/wiki/C_Sharp_Programming/Naming
 
-#### Private Fields. Use _ to prefix private fields.
+#### Private Fields. Use _ to prefix and lower case for the first letter.
 
 ```
 _easterEggs for private fields 
