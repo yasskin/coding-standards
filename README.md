@@ -34,15 +34,23 @@ var player = _playerRepository.GetPlayer((int)id);
 _easterEggs for private fields 
 ```
 
-Properties. User Upper CamelCase Capitalize the first letter of property names.
+Properties. Use Upper CamelCase Capitalize the first letter of property names.
 ```
 ViewBag.HighScore
+```
+
+Boolean properties. Use "Is" or "Has" when relevant.
+```
+public bool IsActive => !( IsNeutralized || HasScored );
 ```
 
 Variables. Use Lower CamelCase, lower the first letter of variables then upper case for additional words.  
 ```
 var highScore
 ```
+
+
+
 
 ## JavaScript
 
