@@ -28,6 +28,16 @@ var player = _playerRepository.GetPlayer((int)id);
 #### Common C# Naming Conventions
 * https://en.wikibooks.org/wiki/C_Sharp_Programming/Naming
 
+# Naming Conventions in C language family
+* Camel Case: firstName
+* Pascal Case: FirstName 
+* Hungarian Notation: strFirstName (not used in C#)
+
+#### Constants
+
+* For local variables: Camel Case int numberOne;
+* For constants use: Pascal Case int MaxZoom = 5;
+
 #### Private Fields. Use _ to prefix and lower case for the first letter.
 
 ```
@@ -44,7 +54,8 @@ Boolean properties. Use "Is" or "Has" when relevant.
 public bool IsActive => !( IsNeutralized || HasScored );
 ```
 
-Variables. Use Lower CamelCase, lower the first letter of variables then upper case for additional words.  
+Local Variables. 
+Use Lower CamelCase, lower the first letter of variables then upper case for additional words.  
 ```
 var highScore
 ```
