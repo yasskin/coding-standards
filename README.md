@@ -47,7 +47,7 @@ Here is a multi-line comment
 That runs to two lines
 */
 ```
-```
+
 more common today in C#
 ```
 // Here is a multi-line comment
