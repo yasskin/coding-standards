@@ -53,6 +53,7 @@ more common today in C#
 // Here is a multi-line comment
 // That runs to two lines
 ```
+* Use Comments to explain the whys, hows, constraints, etc but not the whats (the code should explain the what)
 
 #### Constants
 
