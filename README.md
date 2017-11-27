@@ -39,6 +39,20 @@ use single quotes for characters
 ```
 char characterA = 'A';
 ```
+#### Comments
+for multiline comments, use // two-slashes rather than /* */
+```
+/*
+Here is a multi-line comment
+That runs to two lines
+*/
+```
+```
+more common today in C#
+```
+// Here is a multi-line comment
+// That runs to two lines
+```
 
 #### Constants
 
