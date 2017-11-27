@@ -33,6 +33,13 @@ var player = _playerRepository.GetPlayer((int)id);
 * Pascal Case: FirstName 
 * Hungarian Notation: strFirstName (not used in C#)
 
+#### Characters
+
+use single quotes for characters
+```
+char characterA = 'A';
+```
+
 #### Constants
 
 * For local variables: Camel Case int numberOne;
@@ -44,17 +51,26 @@ var player = _playerRepository.GetPlayer((int)id);
 _easterEggs for private fields 
 ```
 
-Properties. Use Upper CamelCase Capitalize the first letter of property names.
+#### Properties. Use Upper CamelCase Capitalize the first letter of property names.
 ```
 ViewBag.HighScore
 ```
 
-Boolean properties. Use "Is" or "Has" when relevant.
+##### Boolean properties. Use "Is" or "Has" when relevant.
 ```
 public bool IsActive => !( IsNeutralized || HasScored );
 ```
 
-Local Variables. 
+#### Strings
+
+use double quotes for strings
+```
+string firstName = 'Noah';
+```
+
+#### Variables
+
+##### Local Variables. 
 Use Lower CamelCase, lower the first letter of variables then upper case for additional words.  
 ```
 var highScore
