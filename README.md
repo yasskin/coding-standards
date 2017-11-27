@@ -91,7 +91,14 @@ Use Lower CamelCase, lower the first letter of variables then upper case for add
 var highScore
 ```
 
+#### Verbatim Strings 
+For URLs, use verbatium strings @ sympbol rather than double backslach
 
+```
+string path = "c:\\projects\\project1\\folder1";
+
+string path = @"c:\projects\project1\folder1";
+```
 
 
 ## JavaScript
