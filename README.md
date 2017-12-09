@@ -4,13 +4,14 @@
 
 * .Net
 * C#
+* HTML
 * JavaScript
 * jQuery
 * SQL
 
 ### Naming conventions for the code base.
  
-# .NET
+## .NET
 
 Models.
 
@@ -29,7 +30,7 @@ B. use the cast type
 
 var player = _playerRepository.GetPlayer((int)id);
 
-# C#
+## C#
 
 #### Common C# Naming Conventions
 * https://en.wikibooks.org/wiki/C_Sharp_Programming/Naming
@@ -106,19 +107,24 @@ string path = "c:\\projects\\project1\\folder1";
 string path = @"c:\projects\project1\folder1";
 ```
 
+## HTML
 
-# JavaScript
+h1. No more than one h1 element per page.
+```
+<h1>Page Main Title: Do Not Use More Than One Per Page</h1>
+```
+## JavaScript
 
 ```
 
 ```
 
-# jQuery
+## jQuery
 
 ```
 
 ```
-# SQL
+## SQL
 
 Keywords. Use ALL CAPS for SQL Keywords
 ```
