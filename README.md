@@ -130,3 +130,8 @@ Keywords. Use ALL CAPS for SQL Keywords
 ```
 SELECT
 ```
+OFFSET keyword. To page through results use the OFFSET keyword in conjunction with the LIMIT keyword rather than just LIMIT alone.
+```
+SELECT <columns> FROM <table> LIMIT <# of rows> OFFSET <skipped rows>;
+SELECT <columns> FROM <table> LIMIT <skipped rows>, <# of rows>; 
+```
