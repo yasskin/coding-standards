@@ -126,7 +126,15 @@ h1. No more than one h1 element per page.
 ```
 ## SQL
 
-Keywords. Use ALL CAPS for SQL Keywords
+* ASC, DESC. Use these KEYWORDS to ord by a single column criteria:
+```
+SELECT * FROM <table name> ORDER BY <column> [ASC|DESC];
+```
+1. ASC to order results in ascending order.
+
+2. DESC to order results in descending order.
+
+* Keywords. Use ALL CAPS for SQL Keywords
 ```
 SELECT
 ```
